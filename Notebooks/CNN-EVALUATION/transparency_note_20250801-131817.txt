@@ -1,0 +1,6 @@
+
+**IMPORTANT TRANSPARENCY NOTE:**
+
+The model was trained and evaluated on the full dataset due to the limited availability of labeled data. 
+As such, the performance metrics represent the model's ability to fit the training data rather than its generalization capacity. 
+Future work should evaluate on a held-out test set to better assess generalization.

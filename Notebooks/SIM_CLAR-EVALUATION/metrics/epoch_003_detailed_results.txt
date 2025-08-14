@@ -1,0 +1,139 @@
+{
+    "encoder": {
+        "knn": {
+            "accuracy": 0.64375,
+            "precision": 0.8850931677018633,
+            "recall": 0.5987394957983193,
+            "f1_score": 0.7142857142857143,
+            "roc_auc": 0.7504867800778847,
+            "average_precision": 0.8978835263278261,
+            "threshold": "0.09902231",
+            "confusion_matrix": [
+                [
+                    127,
+                    37
+                ],
+                [
+                    191,
+                    285
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.9390625,
+            "precision": 1.0,
+            "recall": 0.9180672268907563,
+            "f1_score": 0.9572836801752465,
+            "roc_auc": 0.9201680672268907,
+            "average_precision": 0.9789275701428004,
+            "threshold": 12.755230385984463,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    39,
+                    437
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.6984375,
+            "precision": 0.7790927021696252,
+            "recall": 0.8298319327731093,
+            "f1_score": 0.8036622583926755,
+            "roc_auc": 0.53269112523058,
+            "average_precision": 0.7490673561003729,
+            "threshold": "0.36113387",
+            "confusion_matrix": [
+                [
+                    52,
+                    112
+                ],
+                [
+                    81,
+                    395
+                ]
+            ]
+        }
+    },
+    "encoder_clustering": {
+        "kmeans_2_silhouette": "0.5257079",
+        "kmeans_5_silhouette": "0.24882984"
+    },
+    "projected": {
+        "knn": {
+            "accuracy": 0.684375,
+            "precision": 0.8743169398907104,
+            "recall": 0.6722689075630253,
+            "f1_score": 0.7600950118764845,
+            "roc_auc": 0.7602480016396803,
+            "average_precision": 0.898196447037819,
+            "threshold": "0.08385034",
+            "confusion_matrix": [
+                [
+                    118,
+                    46
+                ],
+                [
+                    156,
+                    320
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.9984375,
+            "precision": 1.0,
+            "recall": 0.9978991596638656,
+            "f1_score": 0.9989484752891693,
+            "roc_auc": 1.0,
+            "average_precision": 1.0,
+            "threshold": 14.091541065940781,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    1,
+                    475
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.7015625,
+            "precision": 0.7788649706457925,
+            "recall": 0.8361344537815126,
+            "f1_score": 0.806484295845998,
+            "roc_auc": 0.5488573478171757,
+            "average_precision": 0.7576880113833315,
+            "threshold": "0.25083125",
+            "confusion_matrix": [
+                [
+                    51,
+                    113
+                ],
+                [
+                    78,
+                    398
+                ]
+            ]
+        }
+    },
+    "projected_clustering": {
+        "kmeans_2_silhouette": "0.4980893",
+        "kmeans_5_silhouette": "0.22077408"
+    },
+    "model_info": {
+        "model_name": "epoch_003",
+        "model_path": "/content/drive/MyDrive/30-07-2025-1/epoch_models/UltraEfficient_SimCLR_epoch_003.pth",
+        "epoch": 3,
+        "train_loss": 0.637092698903333,
+        "val_loss": "unknown",
+        "evaluation_date": "2025-08-02 19:52:01",
+        "total_samples": 640,
+        "normal_samples": "164",
+        "anomalous_samples": "476"
+    }
+}

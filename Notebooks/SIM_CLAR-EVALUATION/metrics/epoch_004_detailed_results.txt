@@ -1,0 +1,139 @@
+{
+    "encoder": {
+        "knn": {
+            "accuracy": 0.79375,
+            "precision": 0.8467741935483871,
+            "recall": 0.8823529411764706,
+            "f1_score": 0.8641975308641975,
+            "roc_auc": 0.7512169501947119,
+            "average_precision": 0.8816501051722831,
+            "threshold": "0.0011576533",
+            "confusion_matrix": [
+                [
+                    88,
+                    76
+                ],
+                [
+                    56,
+                    420
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.9984375,
+            "precision": 1.0,
+            "recall": 0.9978991596638656,
+            "f1_score": 0.9989484752891693,
+            "roc_auc": 1.0,
+            "average_precision": 1.0,
+            "threshold": 16.12752583132765,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    1,
+                    475
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.740625,
+            "precision": 0.7663230240549829,
+            "recall": 0.9369747899159664,
+            "f1_score": 0.8431001890359168,
+            "roc_auc": 0.5418118466898953,
+            "average_precision": 0.7615255419638511,
+            "threshold": "0.0042716265",
+            "confusion_matrix": [
+                [
+                    28,
+                    136
+                ],
+                [
+                    30,
+                    446
+                ]
+            ]
+        }
+    },
+    "encoder_clustering": {
+        "kmeans_2_silhouette": "0.5515928",
+        "kmeans_5_silhouette": "0.38689274"
+    },
+    "projected": {
+        "knn": {
+            "accuracy": 0.7953125,
+            "precision": 0.852760736196319,
+            "recall": 0.8760504201680672,
+            "f1_score": 0.8642487046632125,
+            "roc_auc": 0.754073580651773,
+            "average_precision": 0.8830415847703706,
+            "threshold": "0.001273501",
+            "confusion_matrix": [
+                [
+                    92,
+                    72
+                ],
+                [
+                    59,
+                    417
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.9984375,
+            "precision": 1.0,
+            "recall": 0.9978991596638656,
+            "f1_score": 0.9989484752891693,
+            "roc_auc": 1.0,
+            "average_precision": 1.0,
+            "threshold": 12.989967417025502,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    1,
+                    475
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.7328125,
+            "precision": 0.7680140597539543,
+            "recall": 0.9180672268907563,
+            "f1_score": 0.8363636363636363,
+            "roc_auc": 0.5501511580241853,
+            "average_precision": 0.7634381985069678,
+            "threshold": "0.004621923",
+            "confusion_matrix": [
+                [
+                    32,
+                    132
+                ],
+                [
+                    39,
+                    437
+                ]
+            ]
+        }
+    },
+    "projected_clustering": {
+        "kmeans_2_silhouette": "0.55205125",
+        "kmeans_5_silhouette": "0.38537106"
+    },
+    "model_info": {
+        "model_name": "epoch_004",
+        "model_path": "/content/drive/MyDrive/30-07-2025-1/epoch_models/UltraEfficient_SimCLR_epoch_004.pth",
+        "epoch": 4,
+        "train_loss": 0.6554416189771166,
+        "val_loss": "unknown",
+        "evaluation_date": "2025-08-02 19:57:10",
+        "total_samples": 640,
+        "normal_samples": "164",
+        "anomalous_samples": "476"
+    }
+}

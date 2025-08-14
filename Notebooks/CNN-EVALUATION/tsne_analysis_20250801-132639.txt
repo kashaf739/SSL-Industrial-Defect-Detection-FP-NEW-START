@@ -1,0 +1,24 @@
+
+**t-SNE Analysis Summary:**
+
+The t-SNE visualizations show how the CNN model has learned to represent different categories and defect statuses in its feature space.
+
+Key observations:
+1. **Category Separation**: In the category plot, we expect to see distinct clusters for each object type (bottle, capsule, etc.).
+   - Well-separated clusters indicate the model has learned distinctive features for each category.
+   - Overlapping clusters suggest similarities between certain object types.
+
+2. **Defect Separation**: In the defect plot, we look for separation between good (green) and defective (red) samples.
+   - Clear separation indicates the model has learned to distinguish defects from normal samples.
+   - Overlapping points suggest the model struggles with certain defect types.
+
+3. **Category-Specific Defect Patterns**: The combined plot shows how defects manifest within each category.
+   - Some categories may show clear defect separation (e.g., bottle with contamination)
+   - Others may have more subtle defect patterns (e.g., texture defects in carpet)
+
+4. **Feature Space Quality**: 
+   - Tight clusters within categories indicate consistent feature extraction.
+   - Outliers might represent challenging samples or mislabeled data.
+
+Note: t-SNE is a visualization technique and doesn't directly reflect model accuracy. 
+The plots show the relative positioning of samples in the learned feature space.

@@ -1,0 +1,139 @@
+{
+    "encoder": {
+        "knn": {
+            "accuracy": 0.6234375,
+            "precision": 0.8903654485049833,
+            "recall": 0.5630252100840336,
+            "f1_score": 0.6898326898326899,
+            "roc_auc": 0.7096420885427343,
+            "average_precision": 0.8798232596078782,
+            "threshold": "2.670288e-05",
+            "confusion_matrix": [
+                [
+                    131,
+                    33
+                ],
+                [
+                    208,
+                    268
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.671875,
+            "precision": 0.9433333333333334,
+            "recall": 0.5945378151260504,
+            "f1_score": 0.729381443298969,
+            "roc_auc": 0.7782588645214183,
+            "average_precision": 0.9194387971840959,
+            "threshold": 7.413736658234549,
+            "confusion_matrix": [
+                [
+                    147,
+                    17
+                ],
+                [
+                    193,
+                    283
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.3703125,
+            "precision": 0.8067226890756303,
+            "recall": 0.20168067226890757,
+            "f1_score": 0.3226890756302521,
+            "roc_auc": 0.3874833469973355,
+            "average_precision": 0.7256726755205969,
+            "threshold": "0.0093771815",
+            "confusion_matrix": [
+                [
+                    141,
+                    23
+                ],
+                [
+                    380,
+                    96
+                ]
+            ]
+        }
+    },
+    "encoder_clustering": {
+        "kmeans_2_silhouette": "0.9576129",
+        "kmeans_5_silhouette": "0.6486813"
+    },
+    "projected": {
+        "knn": {
+            "accuracy": 0.628125,
+            "precision": 0.8888888888888888,
+            "recall": 0.5714285714285714,
+            "f1_score": 0.6956521739130435,
+            "roc_auc": 0.7087838184054109,
+            "average_precision": 0.8828759315651699,
+            "threshold": "2.1839141e-05",
+            "confusion_matrix": [
+                [
+                    130,
+                    34
+                ],
+                [
+                    204,
+                    272
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.984375,
+            "precision": 1.0,
+            "recall": 0.9789915966386554,
+            "f1_score": 0.9893842887473461,
+            "roc_auc": 0.9904053084648493,
+            "average_precision": 0.997295892274427,
+            "threshold": 12.981013249126134,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    10,
+                    466
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.3703125,
+            "precision": 0.8016528925619835,
+            "recall": 0.20378151260504201,
+            "f1_score": 0.3249581239530988,
+            "roc_auc": 0.39425983808157405,
+            "average_precision": 0.7269300601152096,
+            "threshold": "0.0069296956",
+            "confusion_matrix": [
+                [
+                    140,
+                    24
+                ],
+                [
+                    379,
+                    97
+                ]
+            ]
+        }
+    },
+    "projected_clustering": {
+        "kmeans_2_silhouette": "0.9579298",
+        "kmeans_5_silhouette": "0.6466714"
+    },
+    "model_info": {
+        "model_name": "epoch_005",
+        "model_path": "/content/drive/MyDrive/30-07-2025-1/epoch_models/UltraEfficient_SimCLR_epoch_005.pth",
+        "epoch": 5,
+        "train_loss": 0.7043578805325528,
+        "val_loss": "unknown",
+        "evaluation_date": "2025-08-02 20:02:35",
+        "total_samples": 640,
+        "normal_samples": "164",
+        "anomalous_samples": "476"
+    }
+}

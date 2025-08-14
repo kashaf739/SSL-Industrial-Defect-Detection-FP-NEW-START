@@ -1,0 +1,52 @@
+{
+    "epoch_001": {
+        "encoder_clustering": {
+            "kmeans_2_silhouette": "0.28560778",
+            "kmeans_5_silhouette": "0.5678544"
+        },
+        "projected_clustering": {
+            "kmeans_2_silhouette": "0.27931404",
+            "kmeans_5_silhouette": "0.48439056"
+        }
+    },
+    "epoch_002": {
+        "encoder_clustering": {
+            "kmeans_2_silhouette": "0.2375128",
+            "kmeans_5_silhouette": "0.43039647"
+        },
+        "projected_clustering": {
+            "kmeans_2_silhouette": "0.18535334",
+            "kmeans_5_silhouette": "0.35288507"
+        }
+    },
+    "epoch_003": {
+        "encoder_clustering": {
+            "kmeans_2_silhouette": "0.5257079",
+            "kmeans_5_silhouette": "0.24882984"
+        },
+        "projected_clustering": {
+            "kmeans_2_silhouette": "0.4980893",
+            "kmeans_5_silhouette": "0.22077408"
+        }
+    },
+    "epoch_004": {
+        "encoder_clustering": {
+            "kmeans_2_silhouette": "0.5515928",
+            "kmeans_5_silhouette": "0.38689274"
+        },
+        "projected_clustering": {
+            "kmeans_2_silhouette": "0.55205125",
+            "kmeans_5_silhouette": "0.38537106"
+        }
+    },
+    "epoch_005": {
+        "encoder_clustering": {
+            "kmeans_2_silhouette": "0.9576129",
+            "kmeans_5_silhouette": "0.6486813"
+        },
+        "projected_clustering": {
+            "kmeans_2_silhouette": "0.9579298",
+            "kmeans_5_silhouette": "0.6466714"
+        }
+    }
+}

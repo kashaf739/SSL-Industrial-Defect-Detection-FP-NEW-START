@@ -1,0 +1,139 @@
+{
+    "encoder": {
+        "knn": {
+            "accuracy": 0.703125,
+            "precision": 0.9554140127388535,
+            "recall": 0.6302521008403361,
+            "f1_score": 0.759493670886076,
+            "roc_auc": 0.7948221971715514,
+            "average_precision": 0.9286774524763162,
+            "threshold": "0.0891693",
+            "confusion_matrix": [
+                [
+                    150,
+                    14
+                ],
+                [
+                    176,
+                    300
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.846875,
+            "precision": 1.0,
+            "recall": 0.7941176470588235,
+            "f1_score": 0.8852459016393442,
+            "roc_auc": 0.7962184873949579,
+            "average_precision": 0.943420215237361,
+            "threshold": 12.730641842932624,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    98,
+                    378
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.71875,
+            "precision": 0.7879377431906615,
+            "recall": 0.8508403361344538,
+            "f1_score": 0.8181818181818182,
+            "roc_auc": 0.5824964131994261,
+            "average_precision": 0.774880157130109,
+            "threshold": "0.37017208",
+            "confusion_matrix": [
+                [
+                    55,
+                    109
+                ],
+                [
+                    71,
+                    405
+                ]
+            ]
+        }
+    },
+    "encoder_clustering": {
+        "kmeans_2_silhouette": "0.2375128",
+        "kmeans_5_silhouette": "0.43039647"
+    },
+    "projected": {
+        "knn": {
+            "accuracy": 0.753125,
+            "precision": 0.9206349206349206,
+            "recall": 0.7310924369747899,
+            "f1_score": 0.8149882903981265,
+            "roc_auc": 0.7915044066407051,
+            "average_precision": 0.9259242108898352,
+            "threshold": "0.07844083",
+            "confusion_matrix": [
+                [
+                    134,
+                    30
+                ],
+                [
+                    128,
+                    348
+                ]
+            ]
+        },
+        "mahalanobis": {
+            "accuracy": 0.99375,
+            "precision": 1.0,
+            "recall": 0.9915966386554622,
+            "f1_score": 0.9957805907172996,
+            "roc_auc": 0.9936974789915967,
+            "average_precision": 0.9983824489311965,
+            "threshold": 12.753262422170744,
+            "confusion_matrix": [
+                [
+                    164,
+                    0
+                ],
+                [
+                    4,
+                    472
+                ]
+            ]
+        },
+        "cosine": {
+            "accuracy": 0.6921875,
+            "precision": 0.7841140529531568,
+            "recall": 0.8088235294117647,
+            "f1_score": 0.796277145811789,
+            "roc_auc": 0.5732219717155155,
+            "average_precision": 0.7734366856187276,
+            "threshold": "0.3239311",
+            "confusion_matrix": [
+                [
+                    58,
+                    106
+                ],
+                [
+                    91,
+                    385
+                ]
+            ]
+        }
+    },
+    "projected_clustering": {
+        "kmeans_2_silhouette": "0.18535334",
+        "kmeans_5_silhouette": "0.35288507"
+    },
+    "model_info": {
+        "model_name": "epoch_002",
+        "model_path": "/content/drive/MyDrive/30-07-2025-1/epoch_models/UltraEfficient_SimCLR_epoch_002.pth",
+        "epoch": 2,
+        "train_loss": 0.860291253825418,
+        "val_loss": "unknown",
+        "evaluation_date": "2025-08-02 19:46:38",
+        "total_samples": 640,
+        "normal_samples": "164",
+        "anomalous_samples": "476"
+    }
+}

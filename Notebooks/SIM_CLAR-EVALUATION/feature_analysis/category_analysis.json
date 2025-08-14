@@ -1,0 +1,11 @@
+{
+    "note": "Category-wise analysis requires separate evaluation runs per category",
+    "categories": [
+        "bottle",
+        "screw",
+        "metal_nut",
+        "capsule",
+        "cable"
+    ],
+    "recommendation": "Run separate evaluations filtering data by category for detailed analysis"
+}
